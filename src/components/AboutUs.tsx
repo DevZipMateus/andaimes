@@ -1,10 +1,7 @@
-
 import React from 'react';
 import { CheckCircle } from 'lucide-react';
-
 const AboutUs = () => {
-  return (
-    <section id="about" className="py-20 bg-gray-50">
+  return <section id="about" className="py-20 bg-gray-50">
       <div className="container-custom">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
           
@@ -12,12 +9,9 @@ const AboutUs = () => {
           <div className="animate-fade-in">
             <div className="relative">
               <div className="bg-white p-3 rounded-lg shadow-lg">
-                <img 
-                  src="https://images.unsplash.com/photo-1541887338224-f89b093cbd65?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" 
-                  alt="Andaimes em construção" 
-                  className="rounded-md w-full object-cover"
-                  style={{ maxHeight: '500px' }}
-                />
+                <img alt="Andaimes em construção" className="rounded-md w-full object-cover" style={{
+                maxHeight: '500px'
+              }} src="https://lomaq.com.br/wp-content/uploads/2023/04/Diferencas-entre-andaimes-e-plataformas-1000x600.jpg" />
               </div>
               <div className="absolute -bottom-4 -right-4 bg-green-700 text-white py-2 px-4 rounded-lg shadow-md">
                 <span className="font-bold">Desde 1992</span>
@@ -26,7 +20,9 @@ const AboutUs = () => {
           </div>
           
           {/* Right Column - Content */}
-          <div className="animate-fade-in" style={{ animationDelay: '0.1s' }}>
+          <div className="animate-fade-in" style={{
+          animationDelay: '0.1s'
+        }}>
             <div className="inline-block bg-green-800/10 text-green-800 font-medium px-4 py-1.5 rounded-full text-sm mb-4">
               Nossa História
             </div>
@@ -71,8 +67,6 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default AboutUs;
