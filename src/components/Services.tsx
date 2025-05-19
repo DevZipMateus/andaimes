@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { Building2, Construction, Tool, ArrowRight } from 'lucide-react';
+import { Building2, Construction, Wrench, ArrowRight } from 'lucide-react';
 
 const services = [
   {
@@ -21,7 +20,7 @@ const services = [
     id: 3,
     title: 'Máquinas e Equipamentos',
     description: 'Betoneiras, marteletes, placas vibratórias, geradores e outros equipamentos para sua obra.',
-    icon: Tool,
+    icon: Wrench,
     delay: '0.2s'
   },
   {
